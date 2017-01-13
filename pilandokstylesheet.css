@@ -6,7 +6,6 @@
 }
 
 .navigation {
-  background-color: rgba(222, 144, 67, 0.7);
   text-align: center;
   overflow-y: auto;
   position:fixed;
@@ -16,8 +15,25 @@
   z-index: 10000;
 }
 
-.navigation li {
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: rgba(177, 163, 87, 1);
+}
+
+ul.topnav li {
   display: inline-block;
+  min-width: 100px;
+  font-family: Futura-Normal;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+ul.topnav li a {
+  text-decoration: none;
+
 }
 
 p {
@@ -28,5 +44,5 @@ h1 {
 }
 .section {
   width:500px;
-  float: right;
+
 }

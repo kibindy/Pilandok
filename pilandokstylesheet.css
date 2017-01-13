@@ -1,0 +1,32 @@
+* {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  background-color: rgba(222, 144, 67, 0.7);
+  text-align: center;
+  overflow-y: auto;
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+p {
+  font-family: Arial;
+}
+h1 {
+  text-align: center;
+}
+.section {
+  width:500px;
+  float: right;
+}
